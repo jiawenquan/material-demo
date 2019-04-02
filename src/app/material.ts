@@ -10,6 +10,11 @@ import {MatInputModule} from '@angular/material/input';
 import {MatAutocompleteModule} from '@angular/material';
 import {MatSlideToggleModule} from '@angular/material';
 import {MatCardModule} from '@angular/material';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   imports: [BrowserAnimationsModule,
@@ -21,7 +26,11 @@ import {MatCardModule} from '@angular/material';
     MatInputModule,
     MatAutocompleteModule,
     MatSlideToggleModule,
-    MatCardModule
+    MatCardModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatFormFieldModule,
+    MatIconModule
   ],
   exports: [BrowserAnimationsModule,
     MatButtonModule,
@@ -32,7 +41,11 @@ import {MatCardModule} from '@angular/material';
     MatInputModule,
     MatAutocompleteModule,
     MatSlideToggleModule,
-    MatCardModule
+    MatCardModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatFormFieldModule,
+    MatIconModule,
   ],
 })
 

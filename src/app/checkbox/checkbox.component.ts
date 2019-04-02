@@ -8,7 +8,6 @@ import {Component} from '@angular/core';
 export class CheckboxComponent {
   checked = false;
   indeterminate = false;
-  labelPosition = 'after';
+  labelPosition = 'before';
   disabled = false;
-
 }
